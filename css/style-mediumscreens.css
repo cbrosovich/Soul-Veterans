@@ -1,0 +1,896 @@
+/* --------------------
+
+MEDIUM SCREEN CSS STYLES
+
+------------------------*/
+
+/*
+@media only screen and (max-width: 1024px) {*/
+
+	/* UNIVERSAL STYLES */
+
+/*	* {
+		-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+		-webkit-tap-highlight-color: transparent;  
+	}
+
+	body {
+		font-size: 2rem;
+		line-height: 2.6rem;
+	}
+
+	h1 {
+		font-size: 3.4rem;
+		line-height: 3.6rem;
+	}
+
+	h2,
+	.hp-h2,
+	.cta-bin > div > span {
+		font-size: 2.8rem;
+		line-height: 3.2rem;
+	}
+
+	h3 {
+		font-size: 2.6rem;
+		line-height: 3rem;
+	}
+
+	.btn, 
+	.gform_button,
+	.cff-load-more span {
+    	font-size: 1.8rem;
+    	line-height: 1.8rem;
+    }	*/
+
+
+	/* HEADER */
+
+/*	header {
+		align-items: center;
+	}
+	
+		header .header-logo {
+			flex: 0 1 35%;
+			margin-left: .75%;		
+		}	
+
+	.free-estimate p {
+		font-size: 1.8rem;
+	}
+
+	.header-btns .btn {
+		padding: 12px 25px;
+		font-size: 1.3rem;
+	}
+
+}*/
+
+/*@media only screen and (max-width: 900px) {*/
+		/* HEADER */
+
+/*	header .header-nav {
+			justify-content: center;
+			flex: 0 1 100%;
+	    	margin-right: 0;
+		}
+
+	header .header-logo {
+		margin-left: 3.75%;
+	}
+
+	.btn-mobile-menu + .header-nav {
+		max-height: 44px;
+		opacity: 1;
+		transition: all 0.4s;
+	}
+
+		.btn-mobile-menu.active-menu-btn + .header-nav {
+			max-height: 0;
+			opacity: 0;
+		}
+
+		.logo-button {
+			display: none;
+		}
+
+	a.icon.icon-facebook.mobile-icon {
+		display: block;
+	}
+
+	a.icon.icon-facebook.desktop-icon {
+		display: none;
+	}
+
+	.header-logo > a img {
+		max-width: 250px;
+	}
+
+	.header-btns {
+	    flex-direction: column;
+	    align-items: stretch;
+	    justify-content: center;
+	    flex: 0 1 100%;
+	}
+
+	a.btn.btn-blue {
+		border-radius: 0px;
+	}
+
+	.header-btns .btn:first-child {
+		margin-right: 0px;
+	}
+	
+	.white-arrow {
+		display: inline-block;
+		max-width: 8px !important;
+		margin-left: 8px;
+	}*/
+
+	/* HOMEPAGE */
+
+/*	header {
+		padding: 0;
+		padding-top: 15px;
+		margin-bottom: 0;
+	}*/
+
+	/* Mobile Navigation */
+
+/*	nav.mobile-menu, nav.mobile-menu.open-menu {
+		display: block;
+		z-index: 5;
+	}
+
+	.btn-mobile-menu {
+		display: block;
+	}
+
+	.hidden {
+		display: none;
+	}	*/
+
+
+/* DESKTOP NAVIGATION */
+	
+/*	nav.mobile-menu {
+		display: block;
+	}
+
+	nav.desktop-menu {
+		display: none;
+	}
+}*/
+
+/* ---------------------------------------- 
+
+		MEDIUM SCREEN CSS STYLES 
+
+---------------------------------------- */	
+
+
+@media only screen and (max-width: 1024px) {
+	
+	/* UNIVERSAL STYLES */
+	
+	* {
+		-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+		-webkit-tap-highlight-color: transparent;  
+	}
+	
+	body {
+		font-size: 24px;
+		line-height: 30px;
+	}
+	
+
+	/* HEADER */
+
+	header > section {
+		width: 90.5%;
+	}	
+
+		.header-logo a > img {
+			width: 125px;
+		}
+
+	/* MENU */
+
+	.desktop-menu li a {
+		margin: 0 8px;
+	}
+
+	/* SP - HERO */
+
+	.hero {
+		height: 405px;
+	}
+
+	/* SP - BEER OVERVIEW - BEERS */
+	
+	.beer-overview h2 {
+		font-size: 40px;
+	}
+
+	.beer {
+		flex: 0 1 31.5%;
+	}
+
+	.beer:nth-child(n+4) {
+		margin: 30px 0.9%;
+		margin-bottom: 5px;
+	}
+
+	.beer .btn.btn-ghost {
+		font-size: 18px;
+	}
+
+	.beer-overview hr {
+		width: 920px;
+	}
+
+	/* SP - BEER DETAIL */
+
+	.bd-hero h1.section-headline span {
+		background-position-y: 10px;
+		width: 500px;
+	}
+
+	.page-bins-text {
+		padding: 30px 0;
+	}
+
+	/* SP - RESTAURANT */
+
+	.menu-item h3 {
+		font-size: 28px;
+	}
+
+		.menu-item-description p {
+			font-size: 24px;
+		}
+
+
+	/* SP - INDIVIDUAL BLOG POST */
+
+	.blog-post h1 {
+		font-size: 40px;
+	}
+
+	.blog-post h2 {
+		font-size: 30px;
+	}
+
+	.blog-post h3 {
+		font-size: 26px;
+	}
+
+	
+	/* HOMEPAGE */
+
+	/* HERO */
+
+	h1.section-headline span,
+	h2.section-headline span,
+	span.section-headline span {
+		font-size: 40px;
+	}
+
+	.hp-hero-container > .btn-container .btn {
+		font-size: 25px;
+	}
+
+		.btn.btn-ghost {
+			font-size: 25px;
+		}
+
+	/* Bins */
+
+	.text-container h2 {
+		font-size: 40px;
+	}
+
+	.page-bins-text .text-container {
+		width: 85%;
+	}
+
+	/* CTA - SOCIAL MEDIA */
+
+	.social-headline {
+		font-size: 40px;
+	}
+
+	/* BACK TO TOP */
+	
+	.back-to-top img {
+		width: 40px;
+	}
+
+	.header-link-reservation {
+		font-size: 18px;
+	}	
+
+		.header-link-reservation i {
+			top: 3px;
+			font-size: 22px;
+		}
+
+	/* OUR STORY PAGE */
+
+	.sp-content-container {
+		padding: 50px 0 55px;
+	}
+
+	.sp-content-hero {
+		margin: 0px auto 65px;
+	}
+
+	h2.content-hero {
+		font-size: 30px;
+	}
+
+	.os-content {
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	/* BLOGS PAGE */
+
+	.blog-excerpt h3 a {
+		font-size: 28px;
+	}
+
+	.event-date,
+	.blog-date {
+		font-size: 20px;
+	}
+
+	.blog-excerpt p {
+		font-size: 20px;
+		line-height: 26px;
+	}
+
+
+	/* SITEMAP */
+
+	h1.sitemap {
+		font-size: 40px;
+	}
+
+
+	/* FOOTER */
+		footer .section-headline span {
+		font-size: 50px;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+
+
+	/* HEADER */
+
+	.header-logo {
+		order: 1;
+		left: 50%;
+		width: 110px;
+		margin-left: -55px;
+	}
+
+		.header-logo a > img {
+			width: 110px;
+		}
+
+	/* NAVIGATION */
+
+	.header-nav {
+		text-align: center;
+	}
+
+		.header-link-reservation {
+			font-size: 0;
+			line-height: 0;
+		}	
+
+			.header-link-reservation i {
+				top: 0;
+				margin-left: 0;
+				font-size: 32px;
+			}
+
+		.desktop-menu {
+			display: none;
+		}
+
+	.btn-mobile-menu,
+	.header-link-reservation span {
+		display: block;
+	}	
+
+
+	/* MOBILE NAVIGATION */
+
+	nav.mobile-menu,
+	nav.mobile-menu.open-menu {
+		display: block;
+	}
+
+
+	/* SP - BEER OVERVIEW - BEERS */
+
+	.beer .btn.btn-ghost {
+		font-size: 15px;
+	}
+
+	a.beer-name {
+		font-size: 15px;
+	}
+
+	.beer-overview hr {
+		width: 785px;
+	}
+
+
+	/* SP - BEER DETAIL */
+
+	p.beer-detail-text,
+	.about-info p {
+		font-size: 20px;
+		line-height: 25px;
+	}
+
+		.about-info p {
+			margin: 20px 0 0;
+		}
+
+	.beer-detail-about {
+		padding: 40px 0 30px; 
+	}
+
+	.about-container {
+		margin: 0 auto;
+	}
+
+	.about-info {
+		flex: 1 0 100%;
+	}
+
+		h3.about-title {
+			font-size: 25px;
+		}
+
+		p.about-text {
+			font-size: 20px;
+			line-height: 25px;
+			padding-bottom: 20px;
+		}
+
+	.about-img {
+		padding-top: 30px;
+		margin: 0 auto;
+		flex: 0 1 35.4%;
+	}
+
+		.about-img img {
+			padding-bottom: 30px;
+		}
+
+	/* HOMEPAGE*/
+
+	/* HERO */
+
+	.section-headline {
+		font-size: 30px;
+	}
+
+	.section-subhead {
+		font-size: 20px;
+	}
+
+
+	/* CTA - SOCIAL MEDIA */
+
+	.cta-social-icon-container a {
+		font-size: 65px;	
+	}
+
+	/* HOMEPAGE */
+
+	/* Bins */
+
+	.page-bins-text,
+	.page-bins-photo {
+		flex: 0 1 100%;
+	}
+
+	.page-bins-photo {
+		display: block;
+		padding: 0;
+		background-image: none !important;
+	}
+	
+		.page-bins-photo > img {
+			display: block;
+		}	
+	
+	p.our-story-text,
+	a.hp-read-more {
+		font-size: 20px;
+		line-height: 25px;
+	}
+
+	h3.content-hero, .text-container p.text-founders {
+		font-size: 25px;
+		line-height: 25px;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+
+	/* UNIVERSAL STYLES */
+
+	.disclaimer {
+	    font-size: 13px !important;
+	    line-height: 16px !important;
+	}
+
+	/* SP - HERO */
+
+	.hero {
+		height: 345px;
+	}
+
+	.hero-container > .btn-container {
+		bottom: 50px;
+	}
+
+	.beer .btn.btn-ghost {
+		padding: -1px 15px;
+	}
+
+	/* SP - BEER OVERVIEW - BEERS */
+
+	.beer {
+		line-height: 12px;
+	}
+
+		.beer .beer-logo {
+			margin-bottom: 10px;
+		}
+
+	.beer-overview hr {
+		width: 705px;
+	}
+
+	/* SP - BEER DETAIL */
+
+	.bd-hero h1.section-headline span {
+		background-position-y: 10px;
+		width: 500px;
+	}
+
+	.addit-details h3 {
+		font-size: 20px;
+		line-height: 20px;
+	}
+
+	/* SP - INDIVIDUAL BLOG POST */
+
+	.blog-post h1 {
+		font-size: 36px;
+	}
+
+	.blog-post h2 {
+		font-size: 28px;
+	}
+
+	.blog-post h3 {
+		font-size: 24px;
+	}
+
+	body {
+		font-size: 22px;
+		line-height: 28px;
+	}
+
+	/* SP - RESTAURANT */
+
+	.our-menu {
+		padding: 40px 0;
+	}
+
+	.our-menu-container {
+		padding-bottom: 110px;
+	}
+
+		.menu-subnav li {
+			width: 50%;
+			border-right: none;
+			margin: 0;
+			padding: 0;
+		}
+
+			.menu-subnav li:nth-child(n+3) {
+				margin-top: 10px;
+			}
+
+		.menu-item h3 {
+			font-size: 24px;
+			padding: 30px 0 0;
+		}
+
+			.menu-item-description p {
+				font-size: 22px;
+				line-height: 24px;
+			}
+
+			.menu-item span {
+				font-size: 20px;
+			}
+
+			.menu-item .icon.icon-gluten,
+			.menu-item .icon.icon-vegan {
+				top: 1px;
+				font-size: 20px;
+			}
+
+	.category-notes li:first-child {
+		width: 100%;
+	}
+
+	.category-notes li:nth-child(n+2) {
+		width: 50%;
+		border-right: none;
+		padding: 0;
+		margin: 0;
+	}
+
+
+	/* CONTACT FORM */	
+
+	.contact-form-disclaimer {
+		font-size: 14px !important;
+		line-height: 14px !important;
+	}
+
+
+	/* CTA - SOCIAL MEDIA */
+
+	.cta-social-photos {
+		margin: 30px auto;
+	}
+	
+	.cta-social {
+		padding: 35px 0;
+	}
+
+
+	/* HP - NEWS & EVENTS */
+
+	.post-container {
+		margin-left: 120px;
+	}
+	
+	.post-title {
+		flex: 1 0 73.99%;
+		margin-left: 15px;
+	}
+	
+		.post-title a {
+			font-size: 25px;
+		}
+
+	.post-date {
+		padding: 10px 20px;
+	}
+
+	.post-month {
+		font-size: 23px;
+	}
+
+	.post-day {
+		font-size: 35px;
+		padding-top: 7px;
+	}
+
+	/* OUR STORY PAGE */
+
+	.sp-content-container {
+		padding: 25px 0 35px;
+	}
+
+	.sp-content-hero {
+		margin: 0 auto 40px;
+	}
+
+	h2.content-hero {
+		font-size: 26px;
+	}
+
+	img.align-center {
+		margin-bottom: 40px;
+	}
+
+	.os-content {
+		font-size: 20px;
+		line-height: 25px;
+		margin-top: 5px;
+	}
+
+	/* BLOGS PAGE */
+
+	.blog-excerpt h3 a {
+		font-size: 26px;
+	}
+
+	.event-date,
+	.blog-date {
+		font-size: 18px;
+	}
+
+	.blog-excerpt p {
+		font-size: 18px;
+		line-height: 24px;
+	}
+
+	a.btn.btn-gold {
+		font-size: 18px;
+	}
+
+	/* SITEMAP */
+
+	h1.sitemap {
+		font-size: 35px;
+	}
+
+
+
+@media only screen and (max-width: 700px) {
+	
+	/* UNIVERSAL STYLES */
+
+	
+	img.align-left,
+	img.alignleft,
+	img.align-right,
+	img.alignright {
+		display: block;
+		float: none;
+		margin: 15px auto;
+	}
+	
+	img.mobile-kill {
+		display: none;
+	}
+
+	/* SP - HERO */
+
+	.hero {
+		height: 255px;
+	}
+
+	.hero-container > .btn-container {
+		bottom: 40px;
+	}
+
+	.hero .hero-container  {
+		margin: -25px 0;
+	}
+
+	/* SP - BEER OVERVIEW - BEERS */
+
+	.beer-overview h2 {
+		font-size: 30px;
+	}
+
+	.beer .btn.btn-ghost {
+		font-size: 15px;
+	}
+
+	a.beer-name {
+		font-size: 18px;
+	}
+
+	.beer {
+		line-height: 12px;
+	}
+
+	.beer-overview hr {
+		width: 620px;
+	}
+
+	/* SP - RESTAURANT */
+
+	.menu-subnav li a {
+		font-size: 16px;
+	}
+
+	.our-menu-container {
+		padding-bottom: 90px;
+	}
+
+	.menu-item h3 {
+		font-size: 24px;
+	}
+
+		.menu-item-description p {
+			font-size: 18px;
+			line-height: 22px;
+		}
+
+		.menu-item span {
+			font-size: 18px;
+		}
+
+
+	/* HOMEPAGE */
+
+	/* HERO */
+
+	h1.section-headline span,
+	h2.section-headline span,
+	span.section-headline span {
+		font-size: 34px;
+		background-size: 50px;
+		padding: 0 63px;
+	}
+
+	.section-subhead {
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	.hp-hero-container > .btn-container .btn {
+		font-size: 20px;
+	}
+
+		.btn.btn-ghost {
+			font-size: 20px;
+		}
+
+	/* Bins */
+
+	.text-container h2 {
+		font-size: 35px;
+	}
+
+	/* CTA - SOCIAL MEDIA */
+
+	.social-headline {
+		font-size: 35px;
+	}
+
+	/* CONTACT */
+
+	.contact-information h2 {
+		font-size: 30px;
+	}
+
+	.contact-information h3 {
+		font-size: 24px;
+	}
+
+	/* FOOTER */
+
+	footer {
+		padding: 26px 0 45px 0;
+	}
+	
+	footer p, 
+	.footer-content strong {
+		font-size: 17px;
+		line-height: 20px;
+	}
+
+	footer .section-headline span {
+		font-size: 30px;
+	}
+
+	footer .footer-address {
+		margin-top: 40px;
+	}
+
+	footer .footer-hours {
+		padding-top: 35px;
+	}	
+			
+}
