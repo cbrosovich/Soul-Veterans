@@ -5,16 +5,12 @@
 		<link rel="stylesheet" type="text/css" href="css/style-largescreens.css">
 		<link rel="stylesheet" type="text/css" href="css/style-mediumscreens.css">
 		<link rel="stylesheet" type="text/css" href="css/style-smallscreens.css">
-
-
-
-		<script src="jquery-3.4.1.min.js"></script>
-		<script type="text/javascript" src="js/veterans-functions.js"></script>
 	</head>
 	<body>
 		<main>
+			<section id="homepage">
 			<!-- HEADER -->
-			<header>
+			<header class="header">
 				<section class="flexbox-content">
 					<div class="header-logo">
 						<a href="/"><img src="https://www.lock15brewing.com/wp-content/themes/lock15-brewing/images/universal/logo-lock15.png" width="180" alt="Lock 15 Brewing - Akron, Ohio"></a>
@@ -36,7 +32,7 @@
 					<div class="btn-mobile-menu">
 						<span class="btn-mobile-icon"><i></i></span>    
 					</div> 
-					</section>
+				</section>
 					<nav class="mobile-menu">
 						<div class="menu-main-nav-mobile-container">
 							<ul id="menu-main-nav-mobile" class="menu">
@@ -49,18 +45,24 @@
 							</ul>
 						</div>        	
 					</nav>
-					</header>
+			</header>
+		</section>
 
 			<!-- HERO -->
-			<section class="hp-hero">
+			<section id="hp-hero">
+				<div class="video-overlay"></div>
 			    <video id="video-bg-home" autoplay="autoplay" loop="loop" muted="true">
 			        <source src="https://player.vimeo.com/external/275713202.hd.mp4?s=e201e6f52a039aca09dfbc5ee7cebaf0dcd05c4c&profile_id=175" type="video/mp4" />
 			    </video>
-			    	<div class="btn-container">
-			    		<a href="#" class="btn-enter">Enter</a>
+			    	<div class="overlay btn-container">
+			    		<button href="#" class="btn-enter" onclick="myFunction()">Enter the site</button>
 			    	</div>
 			</section>
 		</main>
+
+		<!-- scripts -->
+		<!-- <script src="jquery-3.4.1.min.js"></script> -->
+		<script type="text/javascript" src="js/veterans-functions.js"></script>
 	</body>
 
 </html>

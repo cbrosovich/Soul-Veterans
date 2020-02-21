@@ -1,12 +1,4 @@
 /* GLOBAL STYLES */
-/*.flexbox-content {
-    display: flex;
-    flex-flow: row wrap;
-}
-
-html {
-	font-size: 10px;
-}*/
 
 body {
 	position: relative;
@@ -327,6 +319,10 @@ img.style-kill {
 
 /* HEADER */
 
+#homepage {
+	display: none;
+}
+
 header {
 	z-index: 6;
 	position: fixed;
@@ -586,9 +582,24 @@ nav.mobile-menu {
 
 
 /* BACKGROUND VIDEO STYLES */
-.hp-hero {
+#hp-hero {
     overflow: hidden;
+    width: 100%;
+    display: block
+}
+
+#hp-hero video, #hp-hero .video-overlay {
     position: absolute;
+}
+
+#hp-hero .video-overlay {
+    z-index: 3;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
 }
 
 video#video-bg-home {
@@ -610,5 +621,18 @@ video#video-bg-home {
 a.btn-enter {
 	display: block;
     margin: 50px auto 30px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
 }
 
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
