@@ -11,13 +11,22 @@
 // };
 
 // var btnEnter = document.getElementByClassName('btn-enter');
-function myFunction() {
-	var video = document.getElementById("hp-hero");
-	if (video.style.display === 'block') {
-		video.style.display === 'none';
-	}
-};
+// function myFunction() {
+// 	var video = document.getElementById("hp-hero");
+// 	if (video.style.display === 'block') {
+// 		video.style.display === 'none';
+// 	}
+// };
 
+
+function closeDiv () {
+  var videoDiv = document.getElementById("hp-hero");
+  if (videoDiv.style.display === "block") {
+    videoDiv.style.display = "none";
+  } else {
+    videoDiv.style.display = "block";
+  }
+}
 
 
 

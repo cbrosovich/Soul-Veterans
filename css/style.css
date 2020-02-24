@@ -585,7 +585,6 @@ nav.mobile-menu {
 #hp-hero {
     overflow: hidden;
     width: 100%;
-    display: block
 }
 
 #hp-hero video, #hp-hero .video-overlay {
@@ -635,4 +634,20 @@ a.btn-enter {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+
+/* HOMEPAGE */
+#homepage {
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3em;
+    color: #fff;
 }
