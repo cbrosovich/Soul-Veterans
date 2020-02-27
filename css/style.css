@@ -6,7 +6,7 @@ body {
 	padding: 0;
     overflow-x: hidden;
 	background: #fff;
-	font: 2.4rem/2.8rem "Open Sans", sans-serif;
+	font: 2.4rem/2.8rem "Poppins", sans-serif;
     color: #000;
 	-webkit-user-select: text;
 	-webkit-text-size-adjust: none;
@@ -24,16 +24,16 @@ a:hover {
 b,
 strong {
 	font-weight: normal;
-	font-family: "Open Sans Bold", sans-serif;
+	font-family: "Poppins", sans-serif;
 }
 
 em {
 	font-style: normal;
-	font-family: "Montserrat Italic", sans-serif;
+	font-family: "Poppins Italic", sans-serif;
 }
 
 strong > em {
-	font-family: "Montserrat Bold Italic", sans-serif;	
+	font-family: "Poppins Bold Italic", sans-serif;	
 }
 
 h1,
@@ -46,7 +46,7 @@ h4 {
 }
 
 h1 {
-	font: 6rem/8rem "Georgia", sans-serif;
+	font: 6rem/8rem "Merriweather", sans-serif;
 	-webkit-margin-before: 0;
 	-webkit-margin-after: 0;
 }
@@ -54,7 +54,7 @@ h1 {
 h2,
 h3,
 h4 {
-	font-family: "Open Sans Bold", sans-serif;
+	font-family: "Merriweather", sans-serif;
 	padding: 30px 0 0;
 }
 
@@ -93,7 +93,7 @@ h2 {
 h3 {
 	font-size: 3rem;
 	line-height: 3rem;
-	font-family: "Georgia", sans-serif;
+	font-family: "Merriweather", sans-serif;
 }
 
 h4 {
