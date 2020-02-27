@@ -1,16 +1,10 @@
-/* --------------------
-
-LARGE SCREEN CSS STYLES
-
-------------------------*/
-
-/*@media only screen and (max-width: 1366px) {*/
+@media only screen and (max-width: 1366px) {
 
 	/* HEADER */
 
 
 	/* DESKTOP NAVIGATION */
-/*
+
 	nav.desktop-menu > div > ul > li > a {
 		font-size: 2.0rem;
 		line-height: 2.0rem;
@@ -32,13 +26,13 @@ LARGE SCREEN CSS STYLES
 		}
 
 
-}*/
+}
 
-/*@media only screen and (max-width: 1225px) {*/
+@media only screen and (max-width: 1225px) {
 
 	/* UNIVERSAL STYLES */
 
-/*	body {
+	body {
 		font-size: 2.2rem;
 		line-height: 2.8rem;
 	}
@@ -58,24 +52,24 @@ LARGE SCREEN CSS STYLES
 	h3 {
 		font-size: 2.8rem;
 		line-height: 3.2rem;
-	}*/
+	}
 
 
 	/* HEADER */
 
-/*	header .header-nav {
+	header .header-nav {
     	flex: 0 1 60%;
     }
 
     	.header-btns .btn {
 		    font-size: 1.4rem;
 		    line-height: 1.4rem;
-		}*/
+		}
     	
 
 	/* DESKTOP NAVIGATION */
 
-/*	nav.desktop-menu > div > ul > li > a {
+	nav.desktop-menu > div > ul > li > a {
 		padding: 15px 12px 20px;
 		font-size: 1.8rem;
 		line-height: 1.8rem;
@@ -98,278 +92,3 @@ LARGE SCREEN CSS STYLES
 			font-size: 1.6rem;
 			line-height: 1.6rem;
 		}
-
-}*/
-
-/*@media only screen and (max-width: 1080px) {*/
-
-	/* HEADER */
-/*
-	.header-btns .btn {
-		padding: 12px 30px;
-	}
-}*/
-
-/* ---------------------------------------- 
-
-		LARGE SCREEN CSS STYLES 
-
----------------------------------------- */
-
-
-@media only screen and (max-width: 1366px) {	
-	
-	/* HOMEPAGE */
-
-	/* MENU */
-
-	.desktop-menu li a {
-		font-size: 20px;
-		line-height: 20px;
-	}
-
-	.header-link-reservation {
-		font-size: 20px;
-	}
-
-	.header-link-reservation i {
-		font-size: 25px;
-	}
-
-	/* SP - HERO */
-
-	.hero {
-		height: 530px;
-	}
-
-	/* SP - BEER OVERVIEW - BEERS */
-
-	.beer .beer-logo {
-		margin-bottom: 10px;
-	}
-
-}
-
-
-@media only screen and (max-width: 1225px) {
-
-	/* NAVIGATION */
-
-	.desktop-menu li a {
-    	margin: 0 10px;
-    	font-size: 18px;
-    	line-height: 18px;
-	}
-	
-
-	/* HOMEPAGE */
-
-	/* Bins */
-
-	.text-container h2 {
-		font-size: 40px;
-	}
-	
-	p.our-story-text,
-	a.hp-read-more {
-		font-size: 20px;
-		line-height: 25px;
-	}
-
-	h3.content-hero, 
-	.text-container,
-	strong.addit-details {
-		font-size: 25px;
-		line-height: 25px;
-	}
-
-		.text-container p.text-founders {
-			font-size: 20px;
-			line-height: 20px;
-		}
-
-		strong.addit-details {
-			line-height: 30px;
-		}
-
-
-	/* SP - BEER OVERVIEW - BEERS */
-
-	.beer-overview hr {
-		width: 1065px;
-	}
-
-	/* SP - BEER DETAIL */
-
-	p.beer-detail-text {
-		font-size: 20px;
-		line-height: 25px;
-	}
-	
-	.addit-details h3 {
-		font-size: 20px;
-		line-height: 20px;
-	}
-
-	.about-container {
-		margin-left: 50px;
-	}
-
-	/* SP - RESTAURANT */
-
-	.our-menu hr {
-		margin: 70px 50px 80px;
-	}
-
-
-	/* FOOTER */
-
-	footer p, 
-	.footer-content strong {
-		font-size: 20px;
-		line-height: 25px;
-	}	
-
-	.section-headline span {
-		font-size: 45px;
-	}
-
-}
-
-
-@media only screen and (max-width: 1080px) {
-	
-	/* MENU */
-
-	.desktop-menu li a {
-		font-size: 16px;
-		line-height: 16px;
-	}
-
-	.header-link-reservation {
-		font-size: 18px;
-	}
-
-
-	/* SP - HERO */
-
-	.hero {
-		height: 470px;
-	}
-
-	.hero-container > .btn-container {
-		bottom: 65px;
-	}
-
-	/* SP - BEER OVERVIEW - BEERS */
-
-	.beer .btn {
-		font-size: 25px;
-	}
-
-	a.beer-name {
-		font-size: 18px;
-	}
-
-	.beer-overview hr {
-		width: 997px;
-	}
-
-	/* SP - BEER DETAIL */
-
-	p.beer-detail-text,
-	.about-info p {
-		font-size: 18px;
-		line-height: 24px;
-	}
-
-	.addit-details h3 {
-		font-size: 20px;
-		line-height: 25px;
-	}
-
-
-	/* HOMEPAGE */
-
-	/* HERO */
-
-	.hp-hero {
-		padding: 35px 0;
-	}
-
-
-	.section-headline {
-		font-size: 35px;
-	}
-
-	.section-subhead {
-		font-size: 25px;
-	}
-
-	/* Bins */
-
-	.text-container h2 {
-		font-size: 48px;
-	}
-	
-	p.our-story-text,
-	a.hp-read-more {
-		font-size: 18px;
-		line-height: 20px;
-	}
-
-	h3.content-hero .text-container p.text-founders {
-		font-size: 20px;
-		line-height: 20px;
-	}
-
-
-	/* HP - NEWS & EVENTS */
-
-	/*.post-container {
-		margin-left: 73px;
-	}*/
-	
-	.post-title a {
-		font-size: 30px;
-	}
-
-	.post-date {
-		padding: 10px 20px;
-	}
-
-	.post-month {
-		font-size: 25px;
-	}
-
-	.post-day {
-		font-size: 35px;
-		padding-top: 10px;
-	}
-	
-
-	/* OUR STORY PAGE */
-
-	.sp-content-container {
-		padding: 50px 75px;
-	}
-	
-	h2.content-hero {
-		font-size: 32px;
-	}
-
-	.os-content {
-		font-size: 23px;
-		line-height: 30px;
-	}
-
-
-	
-
-	/* FOOTER */
-
-	.section-headline span {
-		font-size: 45px;
-	}
-
-}
